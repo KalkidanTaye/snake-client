@@ -3,8 +3,5 @@ const { setupInput } = require("./input");
 
 console.log("Connecting ...");
 
-// const conn = connect();
-// setupInput(conn);
-
-connect();
-setupInput();
+const conn = connect();
+setupInput(conn);
